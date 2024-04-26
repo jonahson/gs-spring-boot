@@ -37,6 +37,17 @@ gh repo clone IISI-2303035/gs-spring-boot
 
 ## Commits
 
+When we want to commit code, we can write git commit which will open up the commit edit message in the editor of choice.
+
+```sh
+git commit
+```
+
+set the globaleditor
+```sh
+git config --global core.editor emacs
+```
+
 ## Branchs
 
 ## Remotes
@@ -70,4 +81,13 @@ Git status shows you what files will or will not be commited.
 
 ```
 git status
+```
+
+## Gitconfig file
+
+The gitconfig file is what stores your global configurations for git such as email, name, editor and more.
+
+Showing the contents of our .gitconfig file
+```
+git config --list
 ```
